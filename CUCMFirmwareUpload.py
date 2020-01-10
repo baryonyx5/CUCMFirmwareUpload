@@ -1,6 +1,6 @@
 import sys
 import requests
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import warnings
 import os.path
 import os
