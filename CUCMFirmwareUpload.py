@@ -120,8 +120,4 @@ def main(argv):
     print('\nBulk upload completed successfully!')
 
 if __name__ == "__main__":
-    # WARNING - The Path below must be explicit, do not accidentally upload a directory like I just did =)
-    # Replace the below values or pass the commands through the command-line and remove the below line
-    #sys.argv = ["CUCM-Bulk-TFTP-Upload.py", "192.168.1.225", "admin", "C1sco123"]
-
     main(sys.argv[1:])
